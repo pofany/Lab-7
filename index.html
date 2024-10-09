@@ -1,0 +1,114 @@
+<!doctype HTML>
+<html lang="ua">
+<head>
+  <meta charset="UTF-8">
+  <title>Робота з бібліотекою jQuery</title>
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.0/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="https://resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+  <script src="https://code.jquery.com/ui/1.14.0/jquery-ui.js"></script>
+  <script>
+    $( function() {
+      $( "#accordion" ).accordion();
+    } );
+  </script>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.0/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+  <script src="https://code.jquery.com/ui/1.14.0/jquery-ui.js"></script>
+  <script>
+    $( function() {
+      $( document ).tooltip();
+    } );
+  </script>
+  <script>
+    $(document).ready(function(){
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        autoWidth: true,
+        autoplay: true,
+        autoplayTimeout: 1000,
+        autoplayHoverPause: true,
+        margin: 10,
+        nav: false,
+        responsive: {
+          0: {
+            items: 1
+          },
+          600: {
+            items: 3
+          },
+          1000: {
+            items: 5
+          }
+        }
+      });
+    });
+  </script>
+
+  <style>
+    label {
+      display: inline-block;
+      width: 5em;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <!-- Set up your HTML -->
+
+  <h1>Owl carousel</h1>
+    <div class="owl-carousel owl-theme">
+      <div class="item"><img src="images/img/fant.jpg"></div>
+      <div class="item"><img src="images/img/roman.jpg"></div>
+      <div class="item"><img src="images/img/detec.jpg"></div>
+      <div class="item"><img src="images/img/fent.jpg"></div>
+
+  </div>
+
+  <h1>Акордіон</h1>
+  <div id="accordion">
+    <h3>Фантастика</h3>
+    <div>
+      <p>
+        Занурьтеся в майбутні світи, де технологія розцвітає на очах, а невідомі цивілізації чекають на вас за кожним розгорнутим кутком. Книги жанру фантастика перенесуть вас у далеке майбутнє або на інші планети, де ви зустрінете роботів, прибульців і виправите хід історії людства. Вони викликають питання про майбутнє та можливості технології, розширюючи ваші горизонти.
+      </p>
+    </div>
+    <h3>Роман</h3>
+    <div>
+      <p>
+        Любов, інтриги, сімейні драми і пригоди - все це можна знайти в романах. Автори цього жанру дарують вам можливість пережити історії кохання і дружби, подорожі часом і простором, а також зрозуміти, що означає бути людиною. Романи дарують емоції, змушують сміятися та плакати, і завжди залишають слід у серцях читачів.
+      </p>
+    </div>
+    <h3>Детектив</h3>
+    <div>
+      <p>
+        Співробітники правоохоронних органів або приватні детективи розгадують складні загадки, виявляють злочинців і проникають у світ інтриг. Детективи - це жанр, який тримає в напрузі і захоплює з перших сторінок. Читачам пропонується відгадати зав'язки разом із героями та відчути себе частиною розслідування.
+      </p>
+    </div>
+    <h3>Фентезі</h3>
+    <div>
+      <p>
+        У світі фентезі вам відкриються ворота до чарівних королівств, де магія, чудовища і пригоди на кожному кроці. Герої цього жанру вирушають у неймовірні подорожі, щоб врятувати світ або взяти участь у великих битвах між світлом і темрявою. Фентезі пропонує казкові історії, які зачаровують і завжди тримають в напрузі.
+      </p>
+
+    </div>
+  </div>
+    <h1>Підказка</h1>
+  <div class="tooltip">
+  <p><a href="#" title="Ось якийсь веселий жарт">Анекдоти</a> теж можна додавати до будь-якого елементу.
+    Коли ти наводиш на нього мишкою, настрій піднімається, точно так само, як після гарного анекдоту.</p>
+  <p>І ось один із них:</p> <p>Учитель: "Як називається процес, під час якого речовина переходить з рідкого стану в твердий?"<br>
+  Учень: "Понеділок вранці!"</p> <p>Наведи мишкою, щоб прочитати ще більше жартів або використай <a href="https://osvitoria.media/experience/kalkulyator-zarplaty-vchytelya-2023-rozrahujte-skilky-budete-otrymuvaty/#:~:text=Згідно%20з%20підрахунками%20МОН%2C%20розмір,отримує%20близько%2013%20759%20грн." title="генератор тем для жартів">це</a>
+  для налаштування свого настрою.</p>
+  </div>
+</div>
+<!-- jQuery Owl Carousel -->
+<link rel="stylesheet" href="owlcarousel/owl.carousel.css">
+<link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+<script src="owlcarousel/owl.carousel.js"></script>
+
+</body>
+
+</html>
